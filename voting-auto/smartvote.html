@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartVote</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="screen" id="screen1">
+    <h1>Welcome to SmartVote</h1>
+    <p>The world’s only voting platform for government elections.</p>
+    <p>Please look into the camera for ID verification.</p>
+  </div>
+
+  <div class="screen hidden" id="screen2">
+    <p class="blue">Connecting to neural chip...</p>
+    <div class="loader"></div>
+  </div>
+
+  <div class="screen hidden" id="screen3">
+    <p class="green">Connected</p>
+  </div>
+
+  <div class="screen hidden" id="screen4">
+    <p class="green">Based on your chip data, you would choose:</p>
+    <div class="vote-box">
+      <div class="vote selected">✔ Algorithms Corp</div>
+      <div class="vote">Musk Enterprises</div>
+      <div class="vote">Free Our Minds</div>
+    </div>
+  </div>
+
+  <div class="screen hidden" id="screen5">
+    <p>Thank you for voting.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
